@@ -2,6 +2,7 @@
 import React from 'react';
 import './App.css';
 import Explanation from './Explanation.js';
+import Intro from './Intro.js'
 
 
 function App() {
@@ -10,7 +11,9 @@ function App() {
   officeDog: true, health: true}]
   return (
     <div className="App">
-      It seems our generation loves dogs a lot. However, many people don't realise how many great rescue dogs are available to adopt. Answer some questions to find your perfect pet!
+      <div className="intro">
+        <Intro/>
+      </div>
       So, what size of dog do you want? The main factor here is if you can control it, and the outdoor space you have. Don't get a huge dog in a tiny flat!
       <button>Give me a little dog!</button><button>I'd love a big dog</button>
       
@@ -22,7 +25,11 @@ function App() {
       <button>Yes</button><button>No</button>
 
 
-      <Explanation {...dogs[0]}/>
+      <Explanation {...dogs[1]}/>
+
+      <div className="charities">
+        Here are some charities that do some fantastic work for dogs and other animals in various parts of the UK.
+      </div>
 
     </div>
   );
