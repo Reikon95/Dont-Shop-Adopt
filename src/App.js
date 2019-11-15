@@ -9,13 +9,8 @@ function App() {
   officeDog: true, health: 10}]
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <Explanation dogs[0]/>
-        </p>
-        
-      </header>
+      It seems our generation loves dogs a lot. However, many people don't realise how many great rescue dogs are available to adopt. Answer some questions to find your perfect pet!
+      <Explanation foo={dogs[2]}/>
     </div>
   );
 }
