@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       It seems our generation loves dogs a lot. However, many people don't realise how many great rescue dogs are available to adopt. Answer some questions to find your perfect pet!
-      <Explanation foo={dogs[2]}/>
+      <Explanation {...dogs[1]}/>
     </div>
   );
 }
