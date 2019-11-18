@@ -11,6 +11,8 @@ function Explanation(props) {
                 <p>It probably isn't a good idea to take your {props.breed} to work on a regular basis</p>}</>
         <>{props.health ? <p>The {props.breed} is typically a healthy dog, so you needn't worry about the ethics or vet bills</p> :
                 <p>You should consider that {props.breed} does have some health issues. Maybe you could consider a crossbreed?</p>}</>
+                <>There's lots of great charities and shelters in the UK that can help you out with finding a {props.breed}. Here are some of them:</>
+
         </>
         )
     
