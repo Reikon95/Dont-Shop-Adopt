@@ -16,12 +16,8 @@ function App() {
       </div>
       {/* 
       
-      
-      Do you want to take the dog into an office on a regular basis?
-      <button>Yes</button><button>No</button>
 
 
-      <Explanation {...dogs[1]}/>
 
       <div className="charities">
         Here are some charities that do some fantastic work for dogs and other animals in various parts of the UK.
