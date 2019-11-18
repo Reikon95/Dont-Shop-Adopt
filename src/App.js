@@ -14,7 +14,7 @@ function App() {
       <div className="intro">
         <Intro/>
       </div>
-      So, what size of dog do you want? The main factor here is if you can control it, and the outdoor space you have. Don't get a huge dog in a tiny flat!
+      {/* So, what size of dog do you want? The main factor here is if you can control it, and the outdoor space you have. Don't get a huge dog in a tiny flat!
       <button>Give me a little dog!</button><button>I'd love a big dog</button>
       
       Great, thanks for that information. How much exercise can you give the dog. 
@@ -29,7 +29,7 @@ function App() {
 
       <div className="charities">
         Here are some charities that do some fantastic work for dogs and other animals in various parts of the UK.
-      </div>
+      </div> */}
 
     </div>
   );
