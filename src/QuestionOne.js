@@ -1,17 +1,21 @@
 import React, { useState, useEffect } from 'react';
 
 function QuestionOne() {
-    let [clicked, setClicked] = useState(false);
+    let [optionOne, setOptionOneClicked] = useState(false);
+    let [optionTwo, setOptionTwoClicked] = useState(false);
 
-    function handleClick() {
-      setClicked(true);
+    function handleClickQ1() {
+      setOptionOneClicked(true);
+    }
+      function handleClickQ2() {
+        setOptionTwoClicked(true);
 
 }
-    return <>
+    return !optionOne && !optionTwo ? <>
     So, what size of dog do you want? The main factor here is if you can control it, 
             and the outdoor space you have. Don't get a huge dog in a tiny flat!
-            <button>Give me a little dog!</button><button>I'd love a big dog</button>
-    </>
+            <button onClick={handleClickQ1}>Give me a little dog!</button><button onClick={handleClickQ2}>I'd love a big dog</button>
+    </> : optionOne ? 'Small dog, good choice' : 'Big dog, nice choice'
 }
 
 export default QuestionOne;
