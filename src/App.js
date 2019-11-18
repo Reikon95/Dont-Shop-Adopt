@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <div className="navbar">
         <ul>
-          <li>Why rescue a dog</li>
+          <li>Why rescue a dog?</li>
           <a href="https://portfolio.cameronjwblackwood.now.sh/" target="_blank" rel="noopener noreferrer"><li>More about me</li></a>        
         </ul>
       </div>

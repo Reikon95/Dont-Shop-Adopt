@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import QuestionOne from './QuestionOne';
+import './intro.css';
+
 
 function Intro() {
         let [clicked, setClicked] = useState(false);
@@ -13,7 +15,7 @@ function Intro() {
                         <h3>Pawsome!</h3>
                       It seems our generation loves dogs... a lot. However, many people don't realise how many great rescue dogs are available to adopt. 
                       Answer some questions to find your perfect pet!
-                      <button onClick={handleClick}>Click to start</button>
+                      <div className="start"><button onClick={handleClick}>Click to start</button></div>
                         </> : (      
         <QuestionOne/>
         )
