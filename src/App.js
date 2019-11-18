@@ -14,8 +14,7 @@ function App() {
       <div className="intro">
         <Intro/>
       </div>
-      {/* So, what size of dog do you want? The main factor here is if you can control it, and the outdoor space you have. Don't get a huge dog in a tiny flat!
-      <button>Give me a little dog!</button><button>I'd love a big dog</button>
+      {/* 
       
       Great, thanks for that information. How much exercise can you give the dog. 
       Take into account space availability, your commitments and your physical ability/fitness.
