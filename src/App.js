@@ -16,9 +16,6 @@ function App() {
       </div>
       {/* 
       
-      Great, thanks for that information. How much exercise can you give the dog. 
-      Take into account space availability, your commitments and your physical ability/fitness.
-      <button>Not much</button> <button>One short walk a day</button> <button>Longer walks and runs</button>
       
       Do you want to take the dog into an office on a regular basis?
       <button>Yes</button><button>No</button>
