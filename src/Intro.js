@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import QuestionOne from './QuestionOne';
 
 function Intro() {
         let [clicked, setClicked] = useState(false);
@@ -14,10 +15,7 @@ function Intro() {
                       Answer some questions to find your perfect pet!
                       <button onClick={handleClick}>Click to start</button>
                         </> : (      
-        <>  So, what size of dog do you want? The main factor here is if you can control it, 
-        and the outdoor space you have. Don't get a huge dog in a tiny flat!
-        <button>Give me a little dog!</button><button>I'd love a big dog</button>
-        </>
+        <QuestionOne/>
         )
 }
 
