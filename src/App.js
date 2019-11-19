@@ -3,6 +3,9 @@ import './App.css';
 import Intro from './Intro.js'
 
 function App() {
+  let [size, setSize] = useState(false);
+  let [exec, setExec] = useState(false);
+  let [office, setOffice] = useState(false);
   return (
     <div className="App">
       <div className="navbar">
