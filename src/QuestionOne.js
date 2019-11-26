@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import QuestionTwo from './QuestionTwo';
 import './q1Style.css';
 
-
 function QuestionOne() {
     let [optionOne, setOptionOneClicked] = useState(false);
     let [optionTwo, setOptionTwoClicked] = useState(false);

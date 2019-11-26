@@ -3,9 +3,11 @@ import './App.css';
 import Intro from './Intro.js'
 
 function App() {
-  // let [size, setSize] = useState(false);
-  // let [exec, setExec] = useState(false);
-  // let [office, setOffice] = useState(false);
+  let [score, setScore] = useState(false);
+
+  //todo: add a funcionality keeping the 'score' in state. Finalise with an array, give them the results. Migrate all data to mongodb?
+  //Going to finish Kodiri first to understand this a little better
+
   return (
     <div className="App">
       <div className="navbar">
