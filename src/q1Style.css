@@ -1,0 +1,9 @@
+.container {
+    background-color: #ebfaf8;
+    
+}
+.buttons {
+    display: flex;
+    margin-left: 45vw;
+    margin-top: 10vh;
+}
